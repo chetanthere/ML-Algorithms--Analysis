@@ -1,0 +1,30 @@
+
+Machine Learning & Weka Assignment (MLW Assignment)
+
+
+In this assignment you will use the Weka software to perform some machine learning tasks with the specified datasets. Follow these steps:
+
+ 
+
+1. Download and install Weka in in your computer http://www.cs.waikato.ac.nz/ml/weka/downloading.html
+
+2. Download the following datasets from the UCI Machine Learning Repository
+
+Hepatitis Data Set (http://archive.ics.uci.edu/ml/datasets/Hepatitis)
+Wine Quality (http://archive.ics.uci.edu/ml/datasets/Wine+Quality) Notice that in this dataset you have data for white and red wine in separate files. Then, you need to take a decision about working with the two datasets as a whole or with separate files.
+Bank Marketing (http://archive.ics.uci.edu/ml/datasets/Bank+Marketing), use the “bank-full.csv” data file but if your computer runs out of memory, you might reduce the size of the dataset.
+3. Perform the following experiments using the 3 datasets that you downloaded and these classifiers from the Weka platform: J48 (decision trees), NaiveBayes (bayes), and JRip (rules). For each experiment, compare the results (accuracy in the classification task) with the different classifiers that you are using so that you have information to write your conclusions (i.e. do you get better results when using feature selection?). 
+
+Classification using a 10-fold cross validation (a Weka default option)    https://en.wikipedia.org/wiki/Cross-validation_(statistics)
+Classification using feature selection and 10-fold cross validation (you can also perform the feature selection task with Weka)    https://en.wikipedia.org/wiki/Feature_selection
+4. Create a very concise report of at most 4 pages containing the following sections:
+
+Introduction: a description of your work for this assignment
+Datasets: a description of the datasets
+Preprocessing: in case you needed to modify your data (i.e. cleaning, discretization, normalize, remove samples with missing values, remove noise, or other)
+Feature Selection: description of how you performed the feature selection step for your experiments
+Results: the results of your experiments
+Conclusions: conclusions from your results (analyze your results and create your conclusions)
+References: references about all the resources that you used for your assignment (i.e. weka, the UCI Machine Learning repository, your AI book, others)
+9. Submit your report using your blackboard account
+
